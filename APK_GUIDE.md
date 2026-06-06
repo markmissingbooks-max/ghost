@@ -12,6 +12,7 @@ git commit -m "Build APK"
 git push origin reorganize-project-structure
 ```
 
+
 #### Step 2: Wait for Build to Complete
 - Go to: `https://github.com/markmissingbooks-max/ghost`
 - Click the **Actions** tab (top of page)
