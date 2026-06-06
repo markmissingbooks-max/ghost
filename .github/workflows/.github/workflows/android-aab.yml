@@ -1,4 +1,4 @@
-name: Build Play Store AAB
+name: Build Android APK
 
 on:
   push:
@@ -26,11 +26,11 @@ jobs:
       - name: Make gradlew executable
         run: chmod +x ./gradlew
 
-      - name: Build Release AAB
-        run: ./gradlew bundleRelease
+      - name: Build Debug APK
+        run: ./gradlew assembleDebug
 
-      - name: Upload AAB
+      - name: Upload APK
         uses: actions/upload-artifact@v3
         with:
-          name: GhostStep-AAB
-          path: app/build/outputs/bundle/release/app-release.aab
+          name: GhostStep-APK
+          path: app/build/outputs/apk/debug/app-debug.apk
