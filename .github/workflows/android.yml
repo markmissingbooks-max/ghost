@@ -34,3 +34,6 @@ jobs:
         with:
           name: GhostStep-APK
           path: app/build/outputs/apk/debug/app-debug.apk
+git add codemagic.yaml
+git commit -m 'Add first workflow'
+git push
