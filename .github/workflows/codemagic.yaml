@@ -1,6 +1,4 @@
-workflows:
-  native-android:
-    name: Native Android
+ Native Android
     max_build_duration: 120
     instance_type: mac_mini_m2
     environment:
