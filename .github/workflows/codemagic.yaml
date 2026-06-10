@@ -1,10 +1,4 @@
-name:  Native Android
-    max_build_duration: 120
-    instance_type: mac_mini_m2
-    environment:
-      java: 21
-      android_signing:
-        - keystore_reference
+id_signing:        - keystore_reference
       groups:
         - google_play
       vars:
