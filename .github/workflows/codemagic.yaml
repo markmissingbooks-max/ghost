@@ -1,9 +1,4 @@
-id_signing:        - keystore_reference
-      groups:
-        - google_play
-      vars:
-        PACKAGE_NAME: "io.codemagic.androidquicksample"
-    scripts:
+     PACKAGE_NAME: "io.codemagic.androidquicksample"    scripts:
       - name: Set Android SDK location
         script: |
           echo "sdk.dir=$ANDROID_SDK_ROOT" > "$CM_BUILD_DIR/local.properties"
